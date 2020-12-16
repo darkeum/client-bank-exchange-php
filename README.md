@@ -1,5 +1,6 @@
 # 1CClientBankExchange parser
 Парсер формата обмена данными 1CClientBankExchange (версии 1.03)
+
 Основан на репозитории https://github.com/kilylabs/client-bank-exchange-php
 
 Установка
@@ -20,7 +21,7 @@ $ composer require ae-soft/client-bank-exchange-php
 ```php
 <?php
 
-use Kily\Tools1C\ClientBankExchange\Parser;
+use AE\Tools1C\ClientBankExchange\Parser;
 
 require('vendor/autoload.php');
 
