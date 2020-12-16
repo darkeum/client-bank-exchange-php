@@ -12,6 +12,7 @@ class DocumentSection extends Component
     {
         return [
             'Номер',
+            'КодНазПлатежа',
             'Дата',
             'Сумма',
             'КвитанцияДата',
