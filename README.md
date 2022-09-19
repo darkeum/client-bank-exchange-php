@@ -21,7 +21,7 @@ $ composer require ae-soft/client-bank-exchange-php
 ```php
 <?php
 
-use AE\Tools1C\ClientBankExchange\Parser;
+use Darkeum\ClientBankExchange\Parser;
 
 require('vendor/autoload.php');
 

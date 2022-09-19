@@ -1,25 +1,20 @@
 {
-    "name": "ae-soft/client-bank-exchange-php",
+    "name": "darkeum/client-bank-exchange-php",
     "type": "library",
-    "description": "1CClientBankExchange parser written in PHP",
-    "keywords": ["1c","parser","1CClientBankExchange"],
+    "description": "Парсер банковский выписки в формате 1С PHP",
+    "keywords": ["1c", "parser", "1CClientBankExchange"],
     "license": "MIT",
     "autoload": {
-        "psr-4": {"AE\\Tools1C\\ClientBankExchange\\": "src/ClientBankExchange"}
+        "psr-4": { "Darkeum\\ClientBankExchange\\": "src" }
     },
-    "autoload-dev": {
-        "psr-4": {"AE\\Tools1C\\ClientBankExchange\\Tests\\": "tests/ClientBankExchange/Tests"}
-    },
-    "authors": [
-        {
-			"name": "Komarov Ivan",
-            "email": "info@izh.one",
-            "homepage": "https://izh.one/",
-            "role": "Developer"
-        }
-    ],
-	"require" : {
-        "php" : ">=5.6"
+    "authors": [{
+        "name": "Komarov Ivan",
+        "email": "info@izh.one",
+        "homepage": "https://izh.one/",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": ">=5.6"
     },
     "minimum-stability": "stable"
 }
